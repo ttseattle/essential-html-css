@@ -40,7 +40,7 @@ a:focus {
 	color: #0000EE;
 }
 
-.head {
+.h {
 	font-family: sans-serif;
 	font-family: Helvetica;
 	font-family: "Helvetica Neue";
@@ -53,13 +53,13 @@ h1 {
 	margin: 0;
 }
 
-h3 {
+h2 {
 	font-size: 150%;
 	font-color: #505050;
 	margin: 0;
 }
 
-dt {
+h3 {
 	font-size: 125%;
 	font-color: #505050;
 }
@@ -102,7 +102,7 @@ dd {
 	padding: 1em;
 }
 
-footer {
+#footer {
 	padding: 1em;
 	background-color: #FC892F;
 	border-top: #EC791F 5px;
