@@ -1,7 +1,7 @@
 @import url(https//fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
 
-p {
+body {
 	font-family: sans-serif;
 	font-family: Helvetica;
 	font-family: "Helvetica Neue";
@@ -14,7 +14,7 @@ p {
 	background-attachment: fixed;
 }
 
-body {
+.main {
 	margin: 20px; 
 	margin-left: 30%; /* overrides left, leaves top, bottom, and right */
 
