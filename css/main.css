@@ -20,6 +20,8 @@ div.main {
 
 	background-image: url("../img/ricepaper_v3.png");
 	opacity: 0.9;
+
+	padding: 1em;
 }
 
 a:link {
@@ -48,7 +50,7 @@ a:focus {
 	font-weight: 300;
 }
 
-h1 {
+#top_header {
 	font-size: 300%;
 	margin: 0;
 }
@@ -76,10 +78,10 @@ h3 {
 	color: #EEEEEE;
 	margin: 0;
 }
-
+/*
 #info {
 	padding: 1em;
-}
+}*/
 
 #menu {
 	padding: 1em;
@@ -97,10 +99,10 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
-
+/*
 #about_us {
 	padding: 1em;
-}
+}*/
 
 #footer {
 	padding: 1em;
