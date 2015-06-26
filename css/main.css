@@ -9,16 +9,25 @@ body {
 	font-size: 18px;
 	font-weight: 300;
 
-	background-image: url("img/background.jpg");
+	background-image: url("../img/background.jpg");
 	background-size: 100% 100%;
 	background-attachment: fixed;
 }
 
-a:hover.focus {
+a:hover {
 	color: #0000EE;
 }
 
-a:link.visited {
+a:focus {
+	color: #0000EE;
+}
+
+a:link {
+	color: #0000AA;
+	text-decoration: none;
+}
+
+a:visited {
 	color: #0000AA;
 	text-decoration: none;
 }
