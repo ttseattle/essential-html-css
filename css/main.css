@@ -20,8 +20,6 @@ div.main {
 
 	background-image: url("../img/ricepaper_v3.png");
 	opacity: 0.9;
-
-	padding: 1em;
 }
 
 a:link {
@@ -66,15 +64,19 @@ h3 {
 	font-color: #505050;
 }
 
-#page_header {
+#page_header, #info, #menu, #about_us, #footer {
 	padding: 1em;
+}
+
+#page_header {
+	/*padding: 1em;*/
 	background-color: #FA5A0F;
-	border-bottom: 5px #EA4A00;
+	border-bottom: solid 5px #EA4A00;
 	color: #FFFFFF;
 }
 
 #tag_line {
-	size: 120%;
+	font-size: 120%;
 	color: #EEEEEE;
 	margin: 0;
 }
@@ -84,7 +86,7 @@ h3 {
 }*/
 
 #menu {
-	padding: 1em;
+	/*padding: 1em;*/
 	background-color: rgb(207, 205, 140);
 	background-opacity: 0.5;
 }
@@ -105,9 +107,13 @@ dd {
 }*/
 
 #footer {
-	padding: 1em;
+	/*padding: 1em;*/
 	background-color: #FC892F;
-	border-top: #EC791F 5px;
+	border-top: solid 5px #EC791F;
 	font-size: 80%;
 	text-align: right;
+}
+
+#contact {
+	font-style: italic;
 }
