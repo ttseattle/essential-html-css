@@ -1,7 +1,7 @@
 @import url(https//fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
 
-body {
+p {
 	font-family: sans-serif;
 	font-family: Helvetica;
 	font-family: "Helvetica Neue";
@@ -12,6 +12,14 @@ body {
 	background-image: url("../img/background.jpg");
 	background-size: 100% 100%;
 	background-attachment: fixed;
+}
+
+body {
+	margin: 20px; 
+	margin-left: 30%; /* overrides left, leaves top, bottom, and right */
+
+	background-image: url("../img/ricepaper_v3.png");
+	opacity: 0.9;
 }
 
 a:link {
@@ -31,3 +39,28 @@ a:hover {
 a:focus {
 	color: #0000EE;
 }
+
+.head {
+	font-family: sans-serif;
+	font-family: Helvetica;
+	font-family: "Helvetica Neue";
+	font-family: Raleway;
+	font-weight: 300;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+
+h3 {
+	font-size: 150%;
+	font-color: #505050;
+	margin: 0;
+}
+
+dt {
+	font-size: 125%;
+	font-color: #505050;
+}
+
