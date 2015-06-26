@@ -1,5 +1,24 @@
-/* 
-your CSS rules and font imports should go here 
-delete this comment, add the import directives for your fonts
-and add the CSS rules as described in the challenge
-*/
+@import url(https//fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
+
+body {
+	font-family: sans-serif;
+	font-family: Helvetica;
+	font-family: "Helvetica Neue";
+	font-family: Lato;
+	font-size: 18px;
+	font-weight: 300;
+
+	background-image: url("img/background.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+a:hover.focus {
+	color: #0000EE;
+}
+
+a:link.visited {
+	color: #0000AA;
+	text-decoration: none;
+}
