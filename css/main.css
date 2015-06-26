@@ -1,4 +1,4 @@
-@import url(https//fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
 
 body {
@@ -18,7 +18,7 @@ div.main {
 	margin: 20px; 
 	margin-left: 30%; /* overrides left, leaves top, bottom, and right */
 
-	background-: url("../img/ricepaper_v3.png");
+	background-image: url("../img/ricepaper_v3.png");
 	opacity: 0.9;
 }
 
@@ -68,7 +68,7 @@ dt {
 	padding: 1em;
 	background-color: #FA5A0F;
 	border-bottom: 5px #EA4A00;
-	font-color: #FFFFFF;
+	color: #FFFFFF;
 }
 
 #tag_line {
