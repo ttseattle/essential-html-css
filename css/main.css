@@ -14,7 +14,7 @@ body {
 	background-attachment: fixed;
 }
 
-div.main {
+div#main {
 	margin: 20px; 
 	margin-left: 30%; /* overrides left, leaves top, bottom, and right */
 
@@ -22,21 +22,12 @@ div.main {
 	opacity: 0.9;
 }
 
-a:link {
+a:link, a:visited {
 	color: #0000AA;
 	text-decoration: none;
 }
 
-a:visited {
-	color: #0000AA;
-	text-decoration: none;
-}
-
-a:hover {
-	color: #0000EE;
-}
-
-a:focus {
+a:hover, a:focus {
 	color: #0000EE;
 }
 
@@ -69,7 +60,6 @@ h3 {
 }
 
 #page_header {
-	/*padding: 1em;*/
 	background-color: #FA5A0F;
 	border-bottom: solid 5px #EA4A00;
 	color: #FFFFFF;
@@ -80,13 +70,8 @@ h3 {
 	color: #EEEEEE;
 	margin: 0;
 }
-/*
-#info {
-	padding: 1em;
-}*/
 
 #menu {
-	/*padding: 1em;*/
 	background-color: rgb(207, 205, 140);
 	background-opacity: 0.5;
 }
@@ -101,19 +86,15 @@ dd {
 	margin-left: 1em;
 	margin-bottom: 1em;
 }
-/*
-#about_us {
-	padding: 1em;
-}*/
 
 #footer {
-	/*padding: 1em;*/
 	background-color: #FC892F;
 	border-top: solid 5px #EC791F;
 	font-size: 80%;
 	text-align: right;
 }
 
+/* Not included in instructions, but looks it on screenshot */
 #contact {
 	font-style: italic;
 }
