@@ -64,3 +64,48 @@ dt {
 	font-color: #505050;
 }
 
+#page_header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px #EA4A00;
+	font-color: #FFFFFF;
+}
+
+#tag_line {
+	size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+
+#info {
+	padding: 1em;
+}
+
+#menu {
+	padding: 1em;
+	background-color: rgb(207, 205, 140);
+	background-opacity: 0.5;
+}
+
+dt {
+	font-weight: 400;
+}
+
+dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
+}
+
+#about_us {
+	padding: 1em;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: #EC791F 5px;
+	font-size: 80%;
+	text-align: right;
+}
