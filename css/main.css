@@ -14,12 +14,12 @@ body {
 	background-attachment: fixed;
 }
 
-.main {
+div.main {
 	margin: 20px; 
 	margin-left: 30%; /* overrides left, leaves top, bottom, and right */
 
-	/*background-: url("../img/ricepaper_v3.png");
-	opacity: 0.9;*/
+	background-: url("../img/ricepaper_v3.png");
+	opacity: 0.9;
 }
 
 a:link {
